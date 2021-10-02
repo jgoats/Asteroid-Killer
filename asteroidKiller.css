@@ -1,0 +1,103 @@
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+}
+
+body {
+	background-color:rgb(20,40,60);
+}
+#intro-canvas {
+	margin-top:60px;
+	display:block;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	height:500px;
+	text-align:center;
+	background-image:url("space-background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+ h1 {
+	 display:block;
+	 margin-top:20px;
+	 color:orange;
+	 font-style:italic;
+	 font-size:24px;
+	 margin-bottom:100px;
+ }
+  #description {
+	  color:yellow;
+	  text-shadow:1px 1px black;
+	  font-size:18px;
+	  margin-left:60px;
+	  margin-right:60px;
+	  padding:5px;
+	  font-weight:bold;
+	  margin-bottom:100px;
+  }
+  #start {
+	  background-color:orange;
+	  color:black;
+	  border-radius:10px;
+	  border:2px solid black;
+	  padding:2px;
+	  font-style:italic;
+	  font-weight:bold;
+	  cursor:pointer;
+  }
+#game-container {
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	display:none;
+	background-image:url("space-background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+ h3 {
+	 display:block;
+	 margin-bottom:20px 0px 20px 0px;
+	 color:orange;
+	 font-size:25px;
+	 width:100px;
+	 margin-left:auto;
+	 margin-right:auto;
+	 text-align:center;
+ }
+ #score {
+	 text-align:center;
+	 color:orange;
+	 text-transform:uppercase;
+ }
+ 
+ #start {
+	 display:block;
+	 width:100px;
+	 margin-left:auto;
+	 margin-right:auto;
+ }
+ 
+ #game-canvas {
+	display:block;
+	width:550px;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#level {
+	color:orange;
+	font-family:arial;
+	display:block;
+}
+#finalScore {
+	display:none;
+	color:yellow;
+	font-size:25px;
+	text-align:center;
+	margin-bottom:-30px;
+}
